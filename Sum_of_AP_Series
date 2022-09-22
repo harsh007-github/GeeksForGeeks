@@ -1,0 +1,24 @@
+
+class Solution
+{
+	public:
+		long sum_of_ap(long n,long a, long d)
+		{
+		        long arr[n];
+		        long i;
+		        long sum=0;
+		        for(i=0;i<n;i++)
+		        {
+		            arr[i]=a+(d*i);
+		        }
+		        for(i=0;i<n;i++)
+		        {
+		          sum+=arr[i];
+
+		        }
+                return sum;		    
+		        
+                		        
+		    
+		};
+};
