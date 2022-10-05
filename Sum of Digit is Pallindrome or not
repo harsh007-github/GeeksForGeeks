@@ -1,0 +1,28 @@
+
+class Solution {
+  public:
+    int isDigitSumPalindrome(int N) {
+        int num=N,sum=0,rev=0,temp=0,numb=N;
+        while(num!=0)
+        {
+            N=num%10;
+            sum=sum+N;
+            num=num/10;
+        }
+        int sumof=sum;
+        while(sum!=0)
+        {
+            temp=sum%10;
+            rev=rev*10+temp;
+            sum=sum/10;
+        }
+        if(rev==sumof)
+        {
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+};
