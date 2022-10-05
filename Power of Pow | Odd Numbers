@@ -1,0 +1,15 @@
+
+class Solution
+{
+	public:
+		long long int sum_of_square_oddNumbers(long long int n)
+		{
+		    long long int sum=0,i=1,num;
+		    for(i=1;i<=n;i++)
+		    {
+		        num=(2*i-1);
+		        sum+=pow(num,2);
+		    }
+		    return sum;
+		}
+};
