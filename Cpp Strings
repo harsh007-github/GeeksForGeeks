@@ -1,0 +1,5 @@
+string conCat(string s1 , string s2)
+{
+     char str= strncpy (s1,s2,sizeof(s2));
+        return str;
+}
