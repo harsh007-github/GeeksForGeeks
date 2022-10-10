@@ -1,0 +1,25 @@
+
+class Solution {
+public:
+    int PalinArray(int a[], int n)
+    {
+    	int i,num=0,rev=0,temp;
+    	for(i=0;i<n;i++)
+    	{
+    	    temp=a[i];
+    	    rev=0;
+    	    while(temp!=0)
+    	    {
+    	        num=temp%10;    //Extracting first digit
+    	        rev=rev*10+num; //Reversing the number
+    	        temp=temp/10;   //Deducting the last digit
+    	    }
+    	    if(rev!=a[i])
+    	        {
+    	        return 0;    
+    	        }
+    	 }
+    	 return 1;
+    	        
+    }
+};
