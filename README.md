@@ -7,6 +7,6 @@ Only accepting geeks for geeks solutions right now but will open this repo for l
 
 # My GFG Stats
 
-[![Narendra's geeksForgeeks stats](https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=khandelwal439v)](https://github.com/napiyo/geeksForGeeksStatsAPI)
+[![Narendra's geeksForgeeks stats](https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=harshkhandelwal22)](https://github.com/napiyo/geeksForGeeksStatsAPI)
 
 </div>
