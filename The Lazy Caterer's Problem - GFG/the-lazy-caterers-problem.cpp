@@ -7,15 +7,7 @@ class Solution{
 	public:
    	int maximum_Cuts(int n)
    	{
-   	    int arr[n];
-   	    arr[0] = 2;
-   	    arr[1] = 4;
-   	    for(int i = 2; i < n; i++)
-   	    {
-   	        arr[i] = arr[i - 1] + i + 1;
-   	        
-   	    }
-   	    return arr[n - 1];
+   	    return ((n * (n + 1)) / 2) + 1;
    	    
    	}    
 };
